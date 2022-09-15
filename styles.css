@@ -202,7 +202,10 @@ button {
     padding-top: 3px;
     font-size:24px;
   }
- 
+  #question {
+    height: 140px;
+    padding-left:13px;
+  }
 }
 @media screen and (min-width:768px){
   .card {
