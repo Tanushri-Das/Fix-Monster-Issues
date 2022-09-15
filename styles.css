@@ -35,16 +35,17 @@ body {
 }
 
 #display {
-  height: 100px;
+  height: 130px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 5rem;
+  padding-left: 3rem;
   color: white;
   font-size: 32px;
   background-color: #171717;
   border: 2px solid #9dffad;
   border-radius: 15px;
+  padding-right: 10px;
 }
 
 #countdown {
@@ -193,6 +194,15 @@ button {
     flex-direction: column;
     
   }
+  #display {
+    height: 220px;
+    align-items: start;
+    padding-left: 1rem;
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size:24px;
+  }
+ 
 }
 @media screen and (min-width:768px){
   .card {
